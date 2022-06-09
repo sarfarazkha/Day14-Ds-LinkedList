@@ -23,4 +23,7 @@ public class Operations {
 
     public static void insertAfterSearchNode() {
     }
+
+    public static void deleteAfterNodeAfterSearchNode() {
+    }
 }
