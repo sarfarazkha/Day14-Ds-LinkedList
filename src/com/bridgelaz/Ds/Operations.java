@@ -11,4 +11,7 @@ public class Operations {
 
     public static void insertInBetween() {
     }
+
+    public static void deleteFirstNode() {
+    }
 }
