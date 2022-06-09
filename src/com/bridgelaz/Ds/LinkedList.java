@@ -1,6 +1,5 @@
 package com.bridgelaz.Ds;
 
-
 public class LinkedList {
     Node head;
     Node tail;
