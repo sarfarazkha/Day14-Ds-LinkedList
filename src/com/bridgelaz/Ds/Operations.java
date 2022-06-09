@@ -14,4 +14,10 @@ public class Operations {
 
     public static void deleteFirstNode() {
     }
+
+    public static void deleteLastNode() {
+    }
+
+    public static void findNodeBasedOnValue() {
+    }
 }
