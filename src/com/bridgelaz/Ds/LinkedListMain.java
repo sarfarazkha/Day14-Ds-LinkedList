@@ -1,35 +1,22 @@
 package com.bridgelaz.Ds;
 
-/**UC1 : PROBLEM STATEMENT
- * Lets create a simple Linked List of 56, 30 and 70
+/**UC2 : PROBLEM STATEMENT
+ * Lets create a simple Linked List of 56, 30 and 70 Added first
  */
-class Node {
 
-    int data;
-    Node next;
 
-    public Node(int data) {
-        this.data = data;
-        this.next = null;
-    }
-}
+import java.util.Scanner;
 
 public class LinkedListMain {
-
     public static void main(String[] args) {
-        System.out.println("Welcome to LinkedList Datastructure Program");
-        Node firstNode = new Node(56);
-        Node secondNode = new Node(30);
-        Node thirdNode = new Node(70);
-        Node head = firstNode;
-        firstNode.next = secondNode;
-        secondNode.next = thirdNode;
-        Node tail = thirdNode;
+        System.out.println("Welcome to linkedList DataStructure Program");
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Enter 1 to add the data at the start");
+        switch (scanner.nextInt()) {
+            case 1:
 
-        Node temp = head;
-        while (temp != null) {
-            System.out.println(temp.data);
-            temp = temp.next;
+                Operations.addDataAtStart();
         }
+
     }
 }

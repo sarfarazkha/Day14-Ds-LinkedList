@@ -1,11 +1,11 @@
 package com.bridgelaz.Ds;
 
-public class Node1 {
+public class Node {
 
     public int data;
     public Node next;
 
-    public Node1(int data) {
+    public Node(int data) {
         this.data = data;
         this.next = null;
     }
