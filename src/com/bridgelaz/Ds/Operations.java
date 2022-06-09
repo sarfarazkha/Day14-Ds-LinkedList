@@ -20,4 +20,7 @@ public class Operations {
 
     public static void findNodeBasedOnValue() {
     }
+
+    public static void insertAfterSearchNode() {
+    }
 }
