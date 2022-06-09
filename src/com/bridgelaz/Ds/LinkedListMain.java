@@ -1,9 +1,11 @@
 package com.bridgelaz.Ds;
 
 
-/**UC5 : PROBLEM STATEMENT
- * Ability to Delete first  element
+/**UC6 : PROBLEM STATEMENT
+ * Ability to Delete last element
  */
+
+
 import java.util.Scanner;
 
 public class LinkedListMain {
